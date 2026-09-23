@@ -73,6 +73,7 @@ int main(int argc, char* argv[])
 		allStudents.remove(str);
 	cout << "\n\n all students, dropouts removed \n"; 
 	printRoster(allStudents);
+	
 	// Main solution part
 	checkDoubleEnrolled(allStudents, cs123, cs4);
 	cout << "\n\n all students, double enrolled removed \n"; 
